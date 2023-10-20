@@ -1,0 +1,16 @@
+.video-container {
+  background-color: gray;
+  background-position-x: 100px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Adjust the height based on your layout */
+  margin-left: 0px; /* Add a left margin */
+  margin-top: 0px;
+}
+
+.video-container iframe {
+  max-width: 100%; /* Ensure the video doesn't overflow the container */
+  margin-right: 80px;
+}
+
